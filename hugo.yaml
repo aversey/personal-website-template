@@ -1,0 +1,22 @@
+baseURL: https://USERNAME.github.io/
+defaultContentLanguage: ru
+title: Имя Фамилия
+mainsections: ["posts"]
+params:
+  homeInfoParams:
+    Title: Привет!
+    Content: Я человек
+  socialIcons:
+    - name: VK
+      url: https://vk.com/user
+    - name: Facebook
+      url: https://facebook.com/user
+menu:
+  main:
+    - identifier: posts
+      name: Посты
+      url: /posts/
+      weight: 1
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
